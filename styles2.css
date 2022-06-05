@@ -1,0 +1,300 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: white;
+    position: absolute;
+    top: 15rem;
+    left: 29rem;
+    font-size: 2.5rem;
+
+}
+button{
+    background: #65b5b4;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+}
+
+#one{
+    position: relative;
+    bottom: 40rem;
+    left: 15rem;
+}
+
+#three{
+    position: relative;
+    bottom: 40rem; 
+    left: 30rem;
+}
+
+ul, li, a{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 1.5rem;
+}
+
+a{
+    position: absolute;
+}
+
+.logo2{
+    position: absolute;
+    bottom: 35rem;
+    height: 100px;
+}
+
+ul{
+    position: relative;
+    left: 5rem;
+}
+
+
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0 0 0;
+}
+form{
+    width: 500px;
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    box-shadow: 0px 0px 10px #000 ;
+    border-radius: 10px;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 0;
+}
+input{
+    padding: 10px 0 ;
+    width: 100%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border: 0;
+    border-bottom: 2px solid #65b5b4;
+    background-color: transparent;
+    outline: none;
+}
+input:placeholder-shown{
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+.form-control label{
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-bottom: 7px;
+}
+.submit{
+    width: 90px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    background-color: #65b5b4;
+    font-size: 13px;
+    cursor: pointer;
+    display: block;
+}
+
+.submit:hover{
+    background-color: #186260;
+}
+.mems{
+    width: 100%;
+    display: flex;
+    padding: 3rem 2rem 2rem 2rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.card{
+    background: #fff;
+    padding: 1rem 1.5rem 1rem;
+    width: 32rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    margin: 1rem 2rem;
+}
+.card h3{
+    font-size: 1.9rem;
+    padding-bottom: 7px;
+    position: relative;
+    display: inline;
+}
+.card p{
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+    padding: 1rem 0;
+}
+.card h3::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    bottom: 6px;
+    left: 0;
+    background: #65b5b4;
+}
+.del{
+    padding: 8px 15px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #65b5b4;
+    color: rgb(66, 65, 65);
+}
+.del:hover{
+    background: #65b5b4;
+    transition: all 0.4s;
+    color: #fff;
+}
+footer{
+   width: 100%;
+   text-align: center;
+   font-size: 1.5rem;
+   position: fixed;
+   bottom: 10px;
+}
+
+
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0 0 0;
+    height: 15rem;
+}
+form{
+    width: 500px;
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    box-shadow: 0px 0px 10px #000 ;
+    border-radius: 10px;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 0;
+}
+input{
+    padding: 10px 0 ;
+    width: 100%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border: 0;
+    border-bottom: 2px solid #65b5b4;
+    background-color: transparent;
+    outline: none;
+}
+input:placeholder-shown{
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+.form-control label{
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-bottom: 7px;
+}
+
+.notes{
+    width: 100%;
+    display: flex;
+    padding: 3rem 2rem 2rem 2rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.card{
+    background: #fff;
+    padding: 1rem 1.5rem 1rem;
+    width: 32rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    margin: 1rem 2rem;
+}
+.card h3{
+    font-size: 1.9rem;
+    padding-bottom: 7px;
+    position: relative;
+    display: inline;
+}
+.card p{
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+    padding: 1rem 0;
+}
+.card h3::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    bottom: 6px;
+    left: 0;
+    background: #65b5b4;
+}
+.del{
+    padding: 8px 15px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #65b5b4;
+    color: rgb(66, 65, 65);
+}
+.del:hover{
+    background: #186260;
+    transition: all 0.4s;
+    color: #fff;
+}
+footer{
+   width: 100%;
+   text-align: center;
+   font-size: 1.5rem;
+   position: fixed;
+   bottom: 10px;
+}
+
+.viewonmap{
+    margin-left: 10rem;
+}
+
+.viewonmap:hover{
+    background-color: #186260;
+}
+
+.viewmap{
+    background-color: #65b5b4;
+    color: white;
+    position: relative;
+    left: 10rem;
+    top: 0.4rem;
+    width: 80px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.viewmap:hover{
+    background-color: #186260;
+}

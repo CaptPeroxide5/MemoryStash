@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0 0 0;
+    height: 15rem;
+}
+
+label{
+    margin-left: 2rem;
+}
+
+input{
+    padding: 10px 0 ;
+    width: 200px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border: 0;
+    border-bottom: 2px solid #65b5b4;
+    background-color: transparent;
+    outline: none;
+}
+input:placeholder-shown{
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
